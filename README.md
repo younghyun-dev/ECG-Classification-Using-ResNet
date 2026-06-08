@@ -14,7 +14,7 @@ ECG(심전도) 데이터를 활용하여 심장 질환을 분류하는 딥러닝
 - ECG 데이터 전처리
 - Low-pass Filter(IIR, FIR) 적용
 - 하이퍼파라미터 튜닝
-- 모델 학습 및 성능 평가
+- 모델 학습, 성능 평가
 
 ---
 
@@ -41,14 +41,16 @@ ECG 신호 전처리 후 ResNet 기반 모델을 활용하여 심장 질환을 �
 
 ### 최종 성능
 
-- Weighted F1-score : **99.31%**
+- Weighted F1-score : **99.29%**
+
+![Result](images/result.png)
 
 ### 대회 결과
 
 - 비공개 Test Dataset 평가
 - Weighted F1-score : **99.31%**
 
-![Result](images/result.png)
+![Result](images/result.png))
 
 ---
 
@@ -83,20 +85,6 @@ ECG 신호에는 다양한 고주파 노이즈가 포함되어 있어 데이터 
 ![IIR Filter](images/filter_iir.png)
 
 ---
-
-## Repository Structure
-
-```text
-ECG-Classification-Using-ResNet/
-├── ECG_classification_using_ResNet.ipynb
-├── README.md
-└── images/
-    ├── architecture.png
-    ├── result.png
-    ├── troubleshooting_model.png
-    ├── filter_fft.png
-    └── filter_iir.png
-```
 
 ## Dataset
 
