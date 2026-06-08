@@ -50,7 +50,7 @@ ECG 신호 전처리 후 ResNet 기반 모델을 활용하여 심장 질환을 �
 - 비공개 Test Dataset 평가
 - Weighted F1-score : **99.31%**
 
-![Result](images/result.png))
+![Result](images/contest_result.png))
 
 ---
 
