@@ -86,6 +86,7 @@ Low-pass Filter 적용 후 30Hz 이상의 고주파 성분이 제거됨을 확�
 #### IIR Filter 적용 결과
 
 ![IIR Filter](images/filter_iir.png)
+
 고주파 성분 제거 효과는 확인되었으나 신호 시작 구간에서 왜곡 발생했습니다.
 
 ---
